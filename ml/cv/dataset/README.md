@@ -4,42 +4,44 @@ For the image recognition feature, I narrowed down the scope into Food categoriz
 
 I have downloaded the data and stored it on AWS S3 bucket with the following structure:
 
-food-image-dataset/
-        - evaluation
-                - Bread/
-                - Dairy product/
-                - Dessert/
-                - Egg/
-                - Fried food/
-                - Meat/
-                - Noodles-Pasta/
-                - Rice/
-                - Seafood/
-                - Soup/
-                - Vegetable-Fruit/
-        - training
-                - Bread/
-                - Dairy product/
-                - Dessert/
-                - Egg/
-                - Fried food/
-                - Meat/
-                - Noodles-Pasta/
-                - Rice/
-                - Seafood/
-                - Soup/
-                - Vegetable-Fruit/
-        - validation
-                - Bread/
-                - Dairy product/
-                - Dessert/
-                - Egg/
-                - Fried food/
-                - Meat/
-                - Noodles-Pasta/
-                - Rice/
-                - Seafood/
-                - Soup/
-                - Vegetable-Fruit/
+```bash
+└── food-image-dataset
+    ├── evaluation
+    │   ├── Bread
+    │   ├── Dairy product
+    │   ├── Dessert
+    │   ├── Egg
+    │   ├── Fried food
+    │   ├── Meat
+    │   ├── Noodles-Pasta
+    │   ├── Rice
+    │   ├── Seafood
+    │   ├── Soup
+    │   └── Vegetable-Fruit
+    ├── training
+    │   ├── Bread
+    │   ├── Dairy product
+    │   ├── Dessert
+    │   ├── Egg
+    │   ├── Fried food
+    │   ├── Meat
+    │   ├── Noodles-Pasta
+    │   ├── Rice
+    │   ├── Seafood
+    │   ├── Soup
+    │   └── Vegetable-Fruit
+    └── validation
+        ├── Bread
+        ├── Dairy product
+        ├── Dessert
+        ├── Egg
+        ├── Fried food
+        ├── Meat
+        ├── Noodles-Pasta
+        ├── Rice
+        ├── Seafood
+        ├── Soup
+        └── Vegetable-Fruit
+```
 
 Original Source Link: https://www.epfl.ch/labs/mmspg/downloads/food-image-datasets/
