@@ -45,3 +45,4 @@ I have downloaded the data and stored it on AWS S3 bucket with the following str
 ```
 
 Original Source Link: https://www.epfl.ch/labs/mmspg/downloads/food-image-datasets/
+Processed Source Link: https://www.kaggle.com/datasets/trolukovich/food11-image-dataset/data
